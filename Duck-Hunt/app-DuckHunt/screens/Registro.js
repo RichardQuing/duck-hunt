@@ -130,6 +130,7 @@ export default function Registro({ navigation }) {
 
         <TextInput
           placeholder="Ingrese una contraseña"
+          secureTextEntry={true}
           onChangeText={(text) => setPass(text)}
           style={styles.input}
         />
